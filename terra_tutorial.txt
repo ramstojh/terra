@@ -4,10 +4,10 @@ terra is a Pyhton code developed to reproduce the chemical pattern of a solar tw
 rocky material presents in the convective zone. terra consist in two codes, the first to determine the 
 convective mass of a solar twin and the second to reproduce the chemical pattern of them.
 
-Convective Mass
-----------------
-We developed the code called convective_mass.py, which computes the convective mass of any solar twin by using the
-theoretical models from Siess et al. (2000). Just open tha terminal and run de code as:
+Computing the convective mass
+------------------------------
+The code called convective_mass.py computes the convective mass of any solar twin by using the
+theoretical models from Siess et al. (2000). Just open the terminal and run de code as:
 
 python convective_mass.py
 Mass of the solar twin (Msun): 0.80              ----> introduce the mass of your solar twin
@@ -17,7 +17,42 @@ The convective mass is (Msun): 0.058             ----> convective mass estimated
 =====================================
 
 
-Chemical pattern
-----------------
+Computing the abundance pattern
+--------------------------------
+For computing the chemical pattern of your solar twin, use the code named terra.py. Before to run the code 
+you have to fill your data (elements, atomic number, abundances, error and condensation temperature) in the file
+abundance_XO2.txt. It is important to write your data as we show below, i.e. the atomica number (Z) in ascending order.
 
+#  element     Z       [X/H]    totalerro     TC
+     C         6       0.013      0.005       40  
+     O         8       0.013      0.008      180
+     Na        11      0.035      0.009      958
+     Mg        12      0.074      0.012      1336
+     Al        13      0.087      0.018      1653
+     Si        14      0.070      0.006      1310 
+     S         16      0.024      0.008      664
+     K         19      0.008      0.027      1006
+     Ca        20      0.071      0.009      1517
+     Sc        21      0.080      0.009      1659
+     Ti        22      0.084      0.007      1582
+     V         23      0.078      0.009      1429
+     Cr        24      0.052      0.006      1296
+     Mn        25      0.035      0.008      1158
+     Fe        26      0.055      0.004      1334
+     Co        27      0.058      0.006      1352
+     Ni        28      0.061      0.006      1353
+     Cu        29      0.055      0.011      1037
+     Zn        30      0.020      0.006      726 
+
+Then 
+
+
+
+
+In the code terra.py you have to write some input values as the metallicity of you solar twhin (Fe),
+convective mass (Mcon), meteoritic material N(met) and Earth-like material (Nearth). Aditionl information is found 
+into the code terra.py.
+
+Run the code using the terminal terra.py; a file output will be created containing the abundance computed (XC),
+your abundance (XO), the error, condensation temperature and the element.
 
