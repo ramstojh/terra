@@ -56,8 +56,15 @@ HHe    = 4.00260*pow(10, 10.93)    ----> atomic weight of Helium
 norabu = -0.019                    ----> normalize your abundances to some element (almost all cases to Carbon)
 Norm   = 1                         ----> normalize the mean abundance of 11 solar twins (0 yes, 1 no)
 
-Run the code by using the terminal terra.py; a file Output.txt will be created containing the abundance computed (XC),
-your abundance (XO), the error, condensation temperature and the element:
+
+The best solution is found when you write the correct values of meteoritic-like mass (Nmet) and earth-like
+mass (Nearth), try wrting several values until you get the same chemical pattern that your solar twin 
+(see the plot). Run the code by using the terminal:
+
+python terra.py
+
+A file Output.txt will be created containing the abundance computed (XC), your abundance (XO), the error,
+condensation temperature and the element, as we show below. 
 
 #   XC       XO    error    TC      element   
   0.0005  -0.0190  0.0100  40.0       C
@@ -76,7 +83,12 @@ your abundance (XO), the error, condensation temperature and the element:
   0.0266  -0.0050  0.0090  1037.0     Cu
   0.0070   0.0130  0.0100  726.0      Zn
 
-
+As you see in the Output.txt file, the abunance of your star is different to the estimated abundance. To fit this,
+normalize your abundance to some element (usually to Carbon) by writing this value in "norabu". A pdf plot is created,
+showing the chemical pattern computed and the observed; also the the mean abundance of 11 solar twins is whown. 
+The best solution is reached when value of the X2red is minimum. We get a value of X2red = 1 for the solar twin 
+HD 45184, this mean that there is 4 terrestrial (Nmet + Nearth) mass present in its convective zone. Another example 
+is shown with the abundances of XO2.
 
 
 
