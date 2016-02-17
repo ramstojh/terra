@@ -84,20 +84,8 @@ condensation temperature and the element, as we show below.
   0.0070   0.0130  0.0100  726.0      Zn
 
 As you see in the Output.txt file, the abunance of your star is different to the estimated abundance. To fit this,
-normalize your abundance to some element (usually to Carbon) by writing this value in "norabu". A pdf plot is created,
-showing the chemical pattern computed and the observed; also the the mean abundance of 11 solar twins is whown. 
-The best solution is reached when value of the X2red is minimum. We get a value of X2red = 1 for the solar twin 
-HD 45184, this mean that there is 4 terrestrial (Nmet + Nearth) mass present in its convective zone. Another example 
-is shown with the abundances of XO2.
-
-
-
-
-
-
-
-
-
-
-
-
+normalize your abundance to some element (usually to Carbon) by writing this value in "norabu". A pdf plot 
+(Abundance-vs-Tc_HD45184) is created, showing the chemical pattern computed and the observed; also the the mean 
+abundance of 11 solar twins is whown. The best solution is reached when value of the X2red is minimum. We get a 
+value of X2red = 1 for the solar twin HD 45184, this mean that there is 4 terrestrial (Nmet + Nearth) mass present
+in its convective zone. Another example is shown with the abundances of XO2.
