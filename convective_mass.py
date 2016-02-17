@@ -8,8 +8,8 @@ import numpy
 #----------------------------------------------------------------------------------
 data = numpy.loadtxt('./TABLES/model-lionel.txt')
 
-Mx = float(raw_input('Mass of the solar twin: '))
-Zx = float(raw_input('Metallicity [X/H]     : '))
+Mx = float(raw_input('Mass of the solar twin (Msun): '))
+Zx = float(raw_input('Metallicity [X/H]            : '))
 
 for i in range(len(data[0])):
 	if Zx == data[0][i]:
@@ -59,5 +59,5 @@ elif Z1 == data[0][xp-1] and M1 == data[yp-1][0]:
 	CM22 = data[yp][xp]
 	CM = (m1*CM11 + m2*CM12)*b1 + (m1*CM21 + m2*CM22)*b2
 print '====================================='
-print 'The convective mass is:', '%0.3f' %CM
+print 'The convective mass is (Msun):', '%0.3f' %CM
 print '====================================='
