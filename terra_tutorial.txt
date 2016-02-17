@@ -1,6 +1,8 @@
 terra Tutorial
 ================
-terra is a Pyhton code developed to reproduce the chemical pattern of a solar twin and estimate the amount of rocky material presents in the Sun's convective zone. terra consist in two codes, the first to determine the convective mass of a solar twin and the second to reproduce the chemical pattern of them.
+terra is a Pyhton code developed to reproduce the chemical pattern of a solar twin and estimate the amount of 
+rocky material presents in the Sun's convective zone. terra consist in two codes, the first to determine the 
+convective mass of a solar twin and the second to reproduce the chemical pattern of them.
 
 Convective Mass
 ----------------
