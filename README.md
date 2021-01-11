@@ -1,2 +1,2 @@
 # terra
-A useful code that reproduces the chemical pattern of a solar twin.
+A useful code to reproduce the chemical pattern of a solar twin.
