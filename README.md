@@ -1,10 +1,11 @@
+    .. raw:: html
 
 *terra* is a tool to reproduce the chemical patter of a star.
 
 Example usage
 -------------
 
-.. code-block:: python
+    .. code-block:: python
 
     from pachamama import terra
     
