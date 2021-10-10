@@ -40,7 +40,7 @@ Example usage
 
 Contributing
 ------------
-*terra* is a tool that needs input to improve. Please contact me (ramstojh@alumni.usp.br) if you have questions. Users are welcome to propose new features or report bugs by opening an issue on GitHub.
+*terra* is a tool that needs input to improve. Please contact me (ramstojh@alumni.usp.br) if you have questions. Users are welcome to propose new features or report bugs by opening an issue on GitHub. A special thanks to Marilia Carlos, who created the 'yale.txt' table to estimate convective masses.
 
 
 Author
