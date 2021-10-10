@@ -35,12 +35,12 @@ Example usage
     # If you want to save the outputs (figures and tables) with the star name (e.g., HIP 71726).
     terra.pacha(feh=0.164, mass=1, Mcon=0.01, data_input='obs_abd.csv', data_output='HIP71726')
     
-    #For more details please see the terra's tutorial
+    #For more details please see the terra's tutorial within the file terra_example file
     
 
 Contributing
 ------------
-*terra* is a tool that needs input to improve. Please contact me (ramstojh@alumni.usp.br) if you have questions. Users are welcome to propose new features or report bugs by opening an issue on GitHub. A special thanks to Marilia Carlos, who created the 'yale.txt' table to estimate convective masses.
+*terra* is a tool that needs input to improve. Please contact me (ramstojh@alumni.usp.br) if you have questions. Users are welcome to propose new features or report bugs by opening an issue on GitHub. A special thanks to my friend Marilia Carlos, who created the 'yale.txt' table to estimate convective masses.
 
 
 Author
