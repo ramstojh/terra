@@ -1,5 +1,5 @@
 
-*terra* is a tool for reproducing the abundance patterns of stars. *terra* can be used to modelate planet engulfment events. For more details, see our papers  `Yana Galarza et al. 2016 <https://ui.adsabs.harvard.edu/abs/2016A&A...589A..65G/>`_ and  `Yana Galarza et al. 2021 <https://ui.adsabs.harvard.edu/abs/2021arXiv210900679G>`_
+*terra* is a tool for reproducing the abundance patterns of stars. *terra* can be used to modelate planet engulfment events. For more details, see our papers  `Yana Galarza et al. 2016 <https://ui.adsabs.harvard.edu/abs/2016A%26A...589A..65G/abstract>`_ and  `Yana Galarza et al. 2021 <https://ui.adsabs.harvard.edu/abs/2021arXiv210900679G>`_
 
 Installation
 ------------
@@ -46,6 +46,12 @@ Contributing
 Author
 ------
 - `Jhon Yana Galarza <https://github.com/ramstojh>`_
+
+
+Preferred citation
+------------------
+`Yana Galarza et al. 2016, A&A, 589, A65 <https://ui.adsabs.harvard.edu/abs/2016A%26A...589A..65G/abstract>`_
+
 
 License & attribution
 ---------------------
