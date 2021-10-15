@@ -8,7 +8,7 @@ The only way to install *terra* is through pip::
 
     pip install terra-2.0
 
-If you already have terra installed, you should consider upgrading to the latest version via::
+If you already have *terra* installed, you should consider upgrading to the latest version via::
 
     pip install terra-2.0 --upgrade
 
