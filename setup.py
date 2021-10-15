@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='terra',
-      version='0.1',
+      version='0.2',
       description='Script to determine missing rocky material of a star',
       url='https://github.com/ramstojh/terra',
       author='Jhon Yana',
