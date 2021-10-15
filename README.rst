@@ -8,6 +8,10 @@ The only way to install *terra* is through pip::
 
     pip install terra-2.0
 
+If you already have terra installed, you should consider upgrading to the latest version via::
+
+    pip install terra-2.0 --upgrade
+
 Dependencies
 ------------
 The main dependencies of *terra* are `pandas <https://pandas.pydata.org/>`_, `NumPy <https://numpy.org/>`_, `Astropy <https://www.astropy.org/>`_, `matplotlib <https://matplotlib.org/>`_, `tqdm <https://tqdm.github.io/>`_, and `os <https://docs.python.org/3/library/os.html>`_. 
