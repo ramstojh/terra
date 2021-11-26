@@ -64,22 +64,22 @@ research. The BibTeX entry for the paper is:
 .. code:: bibtex
 
     @ARTICLE{Yana2016,
-       author = {{Galarza}, Jhon Yana and {Mel{\'e}ndez}, Jorge and {Cohen}, Judith G.},
-        title = "{Serendipitous discovery of the faint solar twin Inti 1}",
-      journal = {\aap},
-     keywords = {Sun: abundances, stars: abundances, stars: fundamental parameters, Earth, stars: solar-type, planetary systems, Astrophysics - Solar and Stellar Astrophysics},
-         year = 2016,
-        month = may,
-       volume = {589},
-          eid = {A65},
-        pages = {A65},
-          doi = {10.1051/0004-6361/201527477},
-archivePrefix = {arXiv},
-       eprint = {1603.01245},
- primaryClass = {astro-ph.SR},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2016A&A...589A..65G},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+        author = {{Galarza}, Jhon Yana and {Mel{\'e}ndez}, Jorge and {Cohen}, Judith G.},
+         title = "{Serendipitous discovery of the faint solar twin Inti 1}",
+       journal = {\aap},
+      keywords = {Sun: abundances, stars: abundances, stars: fundamental parameters, Earth, stars: solar-type, planetary systems, Astrophysics - Solar and Stellar Astrophysics},
+          year = 2016,
+         month = may,
+        volume = {589},
+           eid = {A65},
+         pages = {A65},
+           doi = {10.1051/0004-6361/201527477},
+ archivePrefix = {arXiv},
+        eprint = {1603.01245},
+  primaryClass = {astro-ph.SR},
+        adsurl = {https://ui.adsabs.harvard.edu/abs/2016A&A...589A..65G},
+       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
 
 License & attribution
 ---------------------
