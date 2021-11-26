@@ -52,7 +52,7 @@ Author
 ------
 - `Jhon Yana Galarza <https://github.com/ramstojh>`_
 
-Mainteiners
+Maintainers
 -----------
 - `Kayleigh Meneghini <https://github.com/kaykeigh>`_
 
