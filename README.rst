@@ -63,7 +63,7 @@ research. The BibTeX entry for the paper is:
 
 .. code:: bibtex
 
-    @ARTICLE{2016A&A...589A..65G,
+    @ARTICLE{Yana2016,
        author = {{Galarza}, Jhon Yana and {Mel{\'e}ndez}, Jorge and {Cohen}, Judith G.},
         title = "{Serendipitous discovery of the faint solar twin Inti 1}",
       journal = {\aap},
