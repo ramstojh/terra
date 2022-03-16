@@ -52,9 +52,6 @@ Author
 ------
 - `Jhon Yana Galarza <https://github.com/ramstojh>`_
 
-Maintainers
------------
-- `Kayleigh Meneghini <https://github.com/kaykeigh>`_
 
 Preferred citation
 ------------------
